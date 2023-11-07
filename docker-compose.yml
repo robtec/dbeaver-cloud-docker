@@ -31,7 +31,7 @@ services:
       - 443:443
 
   dbeaver:
-    image: dbeaver/cloudbeaver-ee:${DBEAVER_VERSION}
+    image: dbeaver/cloudbeaver:${DBEAVER_VERSION}
     restart: always
     container_name: dbeaver
     volumes:
